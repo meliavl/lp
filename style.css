@@ -1,0 +1,100 @@
+:root {
+  --text-gray: #58555f;
+  --text-green: #145a2e;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: var(--black);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.img-logo {
+  width: 100px;
+}
+
+#info {
+  max-width: 1200px;
+  margin-top: 65px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.slogan-info h1 {
+  font-size: 50px;
+  font-weight: 800;
+  width: 80%;
+  min-width: 500px;
+  color: var(--text-green);
+}
+
+.slogan-info p {
+  font-size: 14px;
+  width: 50%;
+  min-width: 400px;
+  color: var(--text-gray);
+}
+
+.slogan-info a {
+  color: whitesmoke;
+  background: #000000;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+#mas-info {
+  max-width: 1200px;
+  margin-top: 65px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
